@@ -1,15 +1,19 @@
-// Module
-console.log("This is Custom Module");
+// Custom module
+console.log("This is custom module");
 
-// Function
+// function
 function average(arr){
     let sum = 0;
     arr.forEach(element => {
-        sum += element;
+       sum += element; 
     });
     let avg = sum/arr.length;
     return avg;
 }
 
-// exporting
-module.exports = average;
+// export
+module.exports = {
+    averageResult : average,
+    name : "Bikram", 
+    repo :  "GitHub"
+}
