@@ -1,6 +1,8 @@
-// Index
+// index
 
 // importing custom module
-const average = require('./mod')
-console.log(average([5,10]));
+const mod = require('./mod')
 
+// printing
+console.log(mod.averageResult([5,15]));
+console.log(mod.name);
