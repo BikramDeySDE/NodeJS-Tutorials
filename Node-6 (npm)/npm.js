@@ -2,7 +2,9 @@ console.log("Let's learn npm");
 
 
 /*
+----------------------
 Different npm commands
+----------------------
 
 npm
 npm i
